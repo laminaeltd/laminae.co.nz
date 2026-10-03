@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="en-NZ">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#0C0E11">
+<title>Privacy policy · Aesthesia · Laminae</title>
+<meta name="description" content="The privacy policy for Aesthesia, by Laminae Limited, New Zealand.">
+<link rel="icon" href="../assets/icon-192.png">
+<style>
+:root { --bg: #0C0E11; --panel: #14171B; --panel2: #191D22; --ink: #E7EBF0; --muted: #A3ACB8; --rule: #2A3037;
+  --teal: #34D8C4; --pink: #E05BC4; --amber: #F2B84B; --violet: #A592FF; --green: #7FCB7C; color-scheme: dark; }
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body { margin: 0; background: var(--bg); color: var(--ink); font: 17px/1.65 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+a { color: var(--teal); text-underline-offset: 3px; }
+a:hover { color: var(--ink); }
+a:focus-visible, .btn:focus-visible { outline: 2px solid var(--amber); outline-offset: 3px; }
+.wrap { max-width: 920px; margin: 0 auto; padding: 0 16px; }
+header.site { border-bottom: 1px solid var(--rule); background: rgba(12,14,17,.92); position: sticky; top: 0; z-index: 2; backdrop-filter: blur(6px); }
+header.site .wrap { display: flex; align-items: center; justify-content: space-between; gap: 10px 16px; min-height: 62px; flex-wrap: wrap; }
+.brand { display: flex; align-items: center; gap: 10px; font-weight: 700; font-size: 21px; letter-spacing: .02em; color: var(--ink); text-decoration: none; }
+.brand svg { flex: none; }
+nav { display: flex; flex-wrap: wrap; gap: 4px 18px; }
+nav a { color: var(--muted); text-decoration: none; font-size: 15px; }
+nav a:hover { color: var(--teal); }
+.cells { display: block; width: 100%; height: auto; }
+main { padding: 0 0 56px; }
+.hero { padding: 44px 0 18px; }
+h1 { font-size: clamp(32px, 6vw, 54px); line-height: 1.1; margin: 0 0 16px; letter-spacing: -.01em; text-wrap: balance;
+  background: linear-gradient(90deg, var(--teal), var(--violet) 55%, var(--pink)); -webkit-background-clip: text; background-clip: text; color: transparent; }
+h2 { font-size: clamp(24px, 4vw, 30px); line-height: 1.25; margin: 52px 0 12px; display: flex; align-items: center; gap: 12px; }
+h2::before { content: ""; width: 14px; height: 14px; border-radius: 3px; background: var(--accent, var(--teal)); flex: none; }
+h3 { font-size: 19px; margin: 26px 0 6px; color: var(--amber); }
+p, ul, ol { margin: 0 0 14px; }
+.lede { font-size: clamp(18px, 2.4vw, 21px); color: var(--muted); max-width: 60ch; }
+.btns { display: flex; flex-wrap: wrap; gap: 12px; margin: 22px 0 6px; }
+.btn { display: inline-block; padding: 10px 18px; border-radius: 10px; font-weight: 650; text-decoration: none; border: 1px solid var(--rule); color: var(--ink); background: var(--panel2); }
+.btn.primary { background: var(--teal); color: #071413; border-color: var(--teal); }
+.btn:hover { border-color: var(--pink); color: var(--ink); }
+.btn.primary:hover { background: var(--ink); color: var(--bg); }
+.feature { display: block; width: 100%; height: auto; border-radius: 14px; border: 1px solid var(--rule); margin: 18px 0 10px; box-shadow: 0 10px 40px rgba(52,216,196,.08); }
+.card { background: var(--panel); border: 1px solid var(--rule); border-left: 4px solid var(--accent, var(--teal)); border-radius: 12px; padding: 18px 20px; margin: 16px 0; }
+.shots { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 240px)); gap: 16px; margin: 16px 0; }
+.shots img { width: 100%; height: auto; border-radius: 14px; border: 1px solid var(--rule); }
+.badge { display: inline-block; font-size: 13px; font-weight: 650; color: var(--pink); border: 1px solid currentColor; border-radius: 999px; padding: 2px 12px; margin-bottom: 10px; }
+.facts { display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: 12px; margin: 18px 0; padding: 0; list-style: none; }
+.facts li { background: var(--panel); border: 1px solid var(--rule); border-radius: 12px; padding: 14px 16px; }
+.facts b { display: block; font-size: 15px; margin-bottom: 2px; }
+.facts li:nth-child(1) b { color: var(--teal); } .facts li:nth-child(2) b { color: var(--pink); } .facts li:nth-child(3) b { color: var(--amber); } .facts li:nth-child(4) b { color: var(--violet); }
+ol.steps { counter-reset: s; list-style: none; padding: 0; }
+ol.steps li { counter-increment: s; position: relative; padding-left: 44px; margin-bottom: 12px; }
+ol.steps li::before { content: counter(s); position: absolute; left: 0; top: 0; width: 30px; height: 30px; border-radius: 8px; background: var(--panel2); border: 1px solid var(--rule); color: var(--amber); font-weight: 700; display: grid; place-items: center; }
+table { border-collapse: collapse; width: 100%; margin: 0 0 18px; font-size: 15px; display: block; overflow-x: auto; }
+th, td { border: 1px solid var(--rule); padding: 8px 10px; text-align: left; vertical-align: top; }
+th { background: var(--panel2); color: var(--amber); }
+td:first-child { color: var(--ink); }
+code { font: 14px ui-monospace, Consolas, monospace; background: var(--panel2); border: 1px solid var(--rule); border-radius: 4px; padding: 0 4px; }
+hr { border: none; height: 1px; background: linear-gradient(90deg, var(--teal), var(--violet), var(--pink), transparent); margin: 34px 0; opacity: .6; }
+blockquote { margin: 0 0 14px; padding-left: 14px; border-left: 3px solid var(--violet); color: var(--muted); }
+.policy h1 { font-size: clamp(28px, 5vw, 40px); margin-top: 36px; }
+.policy h2 { font-size: 24px; margin-top: 40px; }
+footer.site { border-top: 1px solid var(--rule); color: var(--muted); font-size: 14px; padding: 22px 0 34px; }
+footer.site .wrap { display: flex; flex-wrap: wrap; gap: 6px 18px; justify-content: space-between; }
+</style>
+</head>
+<body>
+<header class="site"><div class="wrap"><a class="brand" href="../"><svg width="26" height="26" viewBox="0 0 26 26" aria-hidden="true"><rect x="2" y="2" width="9" height="9" rx="2" fill="#34D8C4"/><rect x="15" y="2" width="9" height="9" rx="2" fill="#E05BC4"/><rect x="2" y="15" width="9" height="9" rx="2" fill="#F2B84B"/><rect x="15" y="15" width="9" height="9" rx="2" fill="#A592FF"/></svg>Laminae</a>
+<nav><a href="../#aesthesia">Aesthesia</a><a href="../#testing">Testing</a><a href="../privacy/">Privacy</a><a href="../#contact">Contact</a></nav></div></header>
+<main><div class="wrap">
+<div class="policy"><h1>Privacy Policy — Aesthesia</h1>
+<p><strong>Aesthesia is made by Laminae Limited (NZBN 9429053217417), New Zealand.</strong></p>
+<p>This is the privacy policy for the Android app <strong>Aesthesia</strong>, package <code>nz.co.laminae.field</code>, version 0.4.0 (build 12).</p>
+<ul><li>Effective date: the day this build is released to testers</li><li>Last updated: 1 October 2026</li><li>Policy version: 1.0</li><li>Where to read it: in the app, under <strong>Privacy</strong> in the menu. A copy is on our website at laminae.co.nz/privacy.</li></ul>
+<p>Aesthesia is a beta. This policy describes the build named above. When the app changes, this policy changes with it.</p>
+<hr>
+<h2>In short</h2>
+<p>Aesthesia draws a field of shapes on the screen and can play it as a sound. Your finger drives the field. The sound in the room can drive it too, if you choose the microphone in the field's settings.</p>
+<p><strong>Aesthesia keeps what it uses on your phone, and uses it only for what you ask the app to do.</strong> It has no internet permission, so it cannot send anything to us or to anyone else. There are no adverts, no analytics and no crash reporting. There is no account and no sign-in.</p>
+<p>By default the app stores nothing about you. It stores something only when you do something that asks for it, and each is described below: an audio check you start, a timer you start, a recording you make.</p>
+<p>One thing the app can write outside its own storage: if you switch on the plain copy when you record a take, it writes an ordinary <code>.wav</code> file into your phone's shared <strong>Music/Laminae</strong> folder. That file is a normal file on your phone. Other apps that can read audio or media can read it, and it stays on the phone after you uninstall Aesthesia.</p>
+<table><thead><tr><th><strong>What the app listens to</strong></th><th>The microphone, only while you have the sound switched on.</th></tr></thead><tbody><tr><td><strong>What it works out from moment to moment</strong></td><td>A level, a peak, how much of what it hears is the app's own sound coming back, and how much sits on the notes the field is playing. These numbers move the field if you have chosen the microphone, and are then gone. They are not written down.</td></tr><tr><td><strong>What it stores by default</strong></td><td>Nothing.</td></tr><tr><td><strong>What it stores when you ask</strong></td><td>The room's loudness during an audio check you start; the times of a timer run you start; a recorded take. All on the phone.</td></tr><tr><td><strong>What the app sends over a network</strong></td><td>Nothing. It holds no network permission.</td></tr><tr><td><strong>What can leave the app's control</strong></td><td>The plain <code>.wav</code> in Music/Laminae, because it sits in shared storage where the rest of your phone can reach it.</td></tr></tbody></table>
+<p><strong>Sealed</strong> in this policy means encrypted so that only this phone can read it.</p>
+<hr>
+<h2>What the microphone is used for</h2>
+<p>This matters more than any other part of the policy, so it is set out in full.</p>
+<p><strong>While the sound is on, the app has the microphone open.</strong> From each short slice of audio it works out four numbers: how loud the slice is, how high its peak is, how much of it is the app's own output coming back through the speaker, and what share of it sits at the notes the field is playing. It does not keep the sound, and it does not keep those numbers.</p>
+<p><strong>Those numbers move the field only if you choose the microphone.</strong> In the field's settings, under <em>Chaos from</em>, the choice starts on <em>The field's own generator</em>. If you choose <em>The microphone</em>, a loud, sharp sound (a clap, a knock, a tap) puts a burst of energy into the field at a random place, in proportion to how hard it was, and the steady change in the room's level acts on the field as a kind of wind. The choice goes back to the field's own generator each time the app starts. While the sound is on and the microphone is not chosen, the microphone is open and nothing from it moves the field.</p>
+<p><strong>The audio check, on the Diagnostics screen, stores the room's loudness.</strong> It runs only when you start it. For the few seconds it runs it plays a test tone and some clicks, and it stores the room's loudness, one number between 0 and 1, sealed, at most once a second. No audio is stored. If no key is available, the check stores nothing rather than store it unsealed.</p>
+<p><strong>A recorded take is different.</strong> If you use the mixer to record, real audio is written to a file. See "Recording, and the plain copy" below.</p>
+<hr>
+<h2>Permissions, and what each one is for</h2>
+<p>These are the permissions the released build declares.</p>
+<table><thead><tr><th>Permission</th><th>What it is for</th><th>What is kept</th><th>Does it go over a network?</th></tr></thead><tbody><tr><td><strong>Microphone</strong> (<code>RECORD_AUDIO</code>)</td><td>To let the room drive the field if you choose it, to run the audio check, and to record a take if you ask for one. You are asked for this the first time you switch the sound on, not when you open the app.</td><td>Nothing, unless you run the audio check (the room's loudness, sealed, while it runs) or record a take.</td><td>No. The app has no network permission.</td></tr><tr><td><strong>Microphone while in the background</strong> (<code>FOREGROUND_SERVICE_MICROPHONE</code>)</td><td>So the sound keeps going while you are in another app or the screen is off. <strong>This means the microphone can be open while Aesthesia is in the background.</strong> It applies only while the sound is on.</td><td>Nothing of its own.</td><td>No.</td></tr><tr><td><strong>Background service</strong> (<code>FOREGROUND_SERVICE</code>, <code>FOREGROUND_SERVICE_SPECIAL_USE</code>)</td><td>To keep the app's one background service running, so the field and its sound carry on when you leave the app, and so a timer you start keeps its times.</td><td>Nothing of its own.</td><td>No.</td></tr><tr><td><strong>Notifications</strong> (<code>POST_NOTIFICATIONS</code>)</td><td>To show the ongoing notification that tells you the service is running. You are asked the first time you open the app (Android 13 and later); if you decline, the service still runs but the notification does not appear. It reads <strong>Listening</strong> while the microphone is open and <strong>Collating</strong> when it is not. It is titled <strong>Aesthesia</strong>, and so is its entry in Android's notification settings.</td><td>Nothing.</td><td>No.</td></tr><tr><td><strong>Fingerprint or screen lock</strong> (<code>USE_BIOMETRIC</code>)</td><td>So Android can confirm it is you before a vault secret is shown. The app never sees your fingerprint, your face or your PIN. Android answers yes or no.</td><td>Nothing.</td><td>No.</td></tr><tr><td><strong>Storage, Android 8 and 9 only</strong> (<code>WRITE_EXTERNAL_STORAGE</code>, capped at SDK 28)</td><td>Only to write a plain <code>.wav</code> copy of a take into the shared Music folder on older phones, and only when you ask for one. Android 10 and later never see this request.</td><td>The <code>.wav</code> file you asked for.</td><td>No.</td></tr></tbody></table>
+<p>Android also gives the app one permission for its own internal use. It collects nothing.</p>
+<p><strong>No network permission ships in the released app.</strong> The build tool refuses to make a release whose final permission list includes internet access. (Development copies used at a desk carry it, as every project of this kind does; they are never published.)</p>
+<p><strong>Removed from this build, and therefore impossible here:</strong> location, activity recognition, calendar, app-usage statistics, network state, and every Health Connect reading. They belong to the full Laminae Console, which this app is made from, and this build removes them, along with the entries Health Connect uses to reach an app.</p>
+<p><strong>One thing you may still find.</strong> The app's code includes Google's Health Connect software library. Aesthesia asks for no health permission and reads no health data.</p>
+<hr>
+<h2>Where your data is stored, and how it is protected</h2>
+<p>Everything the app keeps is written into the app's own private folder on the phone, except a plain <code>.wav</code> copy if you ask for one. There is no server, no account and no sign-in.</p>
+<p>The room's loudness from the audio check is classed as sensitive and sealed with AES‑256‑GCM, each record on its own with a fresh random value. The key is 32 random bytes made on the phone the first time the app runs. It is held in Android's encrypted storage, backed by the phone's own keystore. It never leaves the phone and is not known to Laminae Ltd.</p>
+<p><strong>Timers.</strong> If you turn a timer series on (on the <em>What is collected</em> screen) and start a run with the timer command, the app stores three numbers for that run: time elapsed, time remaining and progress. They are a clock you start, not anything about you, so they are kept unsealed. The switch goes back to off each time the app starts. The app's settings are also kept unsealed.</p>
+<hr>
+<h2>Recording, and the plain copy</h2>
+<p>When you record a take in the mixer, the app writes a sealed recording inside its own private folder. That file can only be read with the key on your phone. A take stops by itself after five minutes, and while one is recording the app shows a red dot and the time.</p>
+<p>The mixer has a single <strong>plain copy</strong> switch, and it starts off.</p>
+<ul><li>With it <strong>off</strong>, the take exists only in sealed form, and no readable audio is written anywhere.</li><li>With it <strong>on</strong>, the app also writes an ordinary <code>.wav</code> file into your phone's shared <strong>Music/Laminae</strong> collection, so you can find it in a music or files app. That file is not encrypted. A working copy is made while the file is written and is deleted immediately afterwards.</li></ul>
+<p><strong>What the plain copy means in practice.</strong> Once a <code>.wav</code> is in the shared Music collection it is an ordinary file on your phone:</p>
+<ul><li>any other app that has permission to read audio or media can read it;</li><li>any cloud-sync, file-manager or backup app you have installed can copy it off the phone;</li><li>it stays on the phone if you uninstall Aesthesia or clear its data.</li></ul>
+<p>Aesthesia having no internet permission does not limit what the rest of your phone does with that file. If you would rather nothing readable existed, leave the plain copy switch off.</p>
+<p><strong>Other people's voices.</strong> A recording made in a shared room may capture other people. Aesthesia does not know who is in the room and cannot ask them. If you record other people, it is for you to tell them and to handle the recording accordingly.</p>
+<hr>
+<h2>Controlling the app from a computer, in this test build</h2>
+<p>This test build lets a computer connected to the phone control the app. It is protected by a code made once when the app is installed.</p>
+<p>You should know four things about it:</p>
+<ol><li>The code is kept unencrypted in the app's own private folder, which other apps cannot open. It is also shown on the app's <em>Commands</em> screen, with a ready-made line for a computer to type.</li><li>The code is written to the phone's system log when the app starts, and again every time a wrong code is offered. A computer connected to the phone with USB debugging turned on can read that log, so it can learn the code. The answers to commands, including any stored values read back, are written to the same log.</li><li>Every command ships, including the ones that read, export and erase what the app has stored, and the ones that work on the vault.</li><li>The same commands can be run on the app's own <em>Commands</em> screen.</li></ol>
+<p>So, in this test build, an app on your phone that holds the code, or a computer with USB debugging access to your phone, can read what Aesthesia has stored. That is a weakness of the test build, not an intended feature, and it is on the list of things to fix before wider testing.</p>
+<hr>
+<h2>The vault</h2>
+<p>The vault is a separate place for secrets you type in yourself: an id, a name, an optional account name and the secret. It is sealed under its own key, separate from the key that seals everything else.</p>
+<ul><li>A secret is shown only after Android has confirmed you are the owner, by fingerprint or screen lock.</li><li>The list of entries (their names, account names, and when each was changed and last used) is shown without that confirmation, and can be read over the computer connection described above.</li><li>You can start the unlock from the vault screen or from its tile in the notification shade.</li><li>The unlocked session ends after three minutes without use, when you leave the app, or when you close the vault screen.</li><li>The vault screen is marked secure, so it does not appear in screenshots or in the recent-apps preview.</li></ul>
+<p>One qualification, stated plainly: <strong>while the vault is unlocked, a request from a connected computer to show a secret is answered without asking again.</strong> The check is on the unlocked session, not on each request. This is on the list of things to fix before wider testing.</p>
+<hr>
+<h2>Backups</h2>
+<p>Android's automatic backup is turned off for this app, and the app excludes every part of its storage from cloud backup and from moving to a new phone. So nothing in Aesthesia's private folder is copied to your Google account, and nothing is carried across when you set up a new phone.</p>
+<p>If you use a backup or file-sync app of your own that copies your Music folder, a plain <code>.wav</code> from Music/Laminae will be caught by it. That copy is outside the app's control and is governed by whatever service you used.</p>
+<hr>
+<h2>Testing, and what reaches us</h2>
+<p>During the beta, the only information that reaches Laminae Limited is what you choose to send us, such as feedback by email. We use it only to find patterns that help us make the app better for you. We remove anything that identifies you before we analyse it, and we delete it once the analysis is done. There is never a shared central store of your data.</p>
+<hr>
+<h2>What this app never does</h2>
+<ul><li>It never sends your data over a network. It holds no network permission, and no networking, sharing or upload code is written into it.</li><li>It shows no advertising and contains no advertising library.</li><li>It collects no analytics and reports no crashes to us.</li><li>It has no accounts, no sign-in and no password.</li><li>It does not read your location, your calendar, your health data or which other apps you use.</li><li>It does not sell your information. It shares nothing with us or anyone else; the only other way in is the computer connection described above.</li></ul>
+<p>If you take part in the beta through Google Play, Google handles the tester list and anything you choose to send through Play. That is Google's process, not the app's.</p>
+<hr>
+<h2>How long things are kept, and how to delete them</h2>
+<p>What the app keeps stays on your phone until you remove it. The app does not expire it for you.</p>
+<table><thead><tr><th>What you do</th><th>What it removes</th><th>What it leaves</th></tr></thead><tbody><tr><td>On the <em>Commands</em> screen, run <code>store.forget</code> (it asks you to confirm; there is no undo)</td><td>Everything the app has stored: the loudness from audio checks and any timer runs.</td><td>Takes, the vault, the settings.</td></tr><tr><td>In the vault, press <em>Forget</em> on an entry</td><td>That entry.</td><td>Everything else.</td></tr><tr><td>Uninstall Aesthesia</td><td>The app's private folder: everything stored, the settings, the sealed takes, the connection code, and the keys.</td><td>Any plain <code>.wav</code> you exported to Music/Laminae.</td></tr><tr><td>Settings → Apps → Aesthesia → Storage → Clear data</td><td>Everything in the app's private storage.</td><td>Any plain <code>.wav</code> in Music/Laminae.</td></tr><tr><td>Delete the files in Music/Laminae with your phone's Files or Music app</td><td>Those <code>.wav</code> files.</td><td>Nothing else.</td></tr></tbody></table>
+<p>There is no single button that removes everything. The simplest way is to delete any exported <code>.wav</code> files and then uninstall the app.</p>
+<p>You do not need to ask us to delete anything, because we hold nothing of yours. If you want that confirmed in writing, write to developer-feedback@laminae.co.nz.</p>
+<hr>
+<h2>Children</h2>
+<p>Aesthesia is not directed at children. On Google Play it is declared for an audience of 18 and over.</p>
+<p>The app has no accounts, no adverts, no purchases, no messaging and no way to contact anyone through it, so there is nothing in it for a child to be exposed to by another person.</p>
+<hr>
+<h2>Before the microphone is used</h2>
+<p>Before Android asks for the microphone, Aesthesia shows a short screen, <em>The sound in the room</em>, saying what it listens for and what it keeps. <em>Continue</em> goes on to Android's own dialogue; <em>Not now</em>, the back button or a tap outside the screen leaves the sound off and asks nothing. If you decline Android's dialogue, the sound does not start and the rest of the app works as before.</p>
+<hr>
+<h2>Your rights, and New Zealand law</h2>
+<p>Laminae Limited is a New Zealand company and is the agency responsible for this app under the Privacy Act 2020.</p>
+<p>Because Aesthesia holds nothing of yours on any system of ours, there is normally nothing for us to give you access to or to correct. Everything the app holds is on your own phone, where you can read it and delete it yourself, as described above.</p>
+<p>If you believe we hold personal information about you, you may ask for access to it and for correction of it. Write to developer-feedback@laminae.co.nz. We will answer within the time the Privacy Act allows.</p>
+<p>If you are not satisfied with our answer, you may complain to the Office of the Privacy Commissioner (privacy.org.nz).</p>
+<p><strong>If something goes wrong.</strong> If we become aware of a privacy breach affecting personal information we hold, and that breach is likely to cause serious harm, we will notify the Office of the Privacy Commissioner and the people affected, as the Privacy Act 2020 requires. Because the app sends us nothing, the realistic scope of such a breach is what you have sent us directly, such as an email.</p>
+<hr>
+<h2>Changes to this policy</h2>
+<p>If this policy changes, the updated version will be in the app's <strong>Privacy</strong> screen, and on our website at laminae.co.nz/privacy, with a new effective date and a new version number at the top. Material changes will also be described in the release notes of the version they apply to.</p>
+<hr>
+<h2>Contact</h2>
+<p><strong>Laminae Limited</strong> (NZBN 9429053217417), New Zealand Privacy contact: developer-feedback@laminae.co.nz Website: laminae.co.nz</p>
+<p>Write to that address for any question about this policy or about what the app holds.</p></div>
+</div></main>
+<footer class="site"><div class="wrap"><span>Laminae Limited · New Zealand · NZBN 9429053217417</span><span><a href="../privacy/">Privacy policy</a> · <a href="mailto:developer-feedback@laminae.co.nz">developer-feedback@laminae.co.nz</a></span></div></footer>
+</body>
+</html>
