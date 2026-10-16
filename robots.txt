@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://laminae.co.nz/sitemap.xml
