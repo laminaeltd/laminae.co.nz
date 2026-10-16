@@ -44,6 +44,9 @@ p, ul, ol { margin: 0 0 14px; }
 .shots { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; margin: 16px 0; }
 @media (max-width: 640px) { .shots { grid-template-columns: repeat(2, 1fr); } }
 .shots img { width: 100%; height: auto; border-radius: 14px; border: 1px solid var(--rule); }
+.stills { display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; margin: 16px 0; align-items: start; }
+@media (max-width: 640px) { .stills { grid-template-columns: 1fr; } }
+.stills img { width: 100%; height: auto; border-radius: 14px; border: 1px solid var(--rule); background: #000; }
 .badge { display: inline-block; font-size: 13px; font-weight: 650; color: var(--pink); border: 1px solid currentColor; border-radius: 999px; padding: 2px 12px; margin-bottom: 10px; }
 .facts { display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: 12px; margin: 18px 0; padding: 0; list-style: none; }
 .facts li { background: var(--panel); border: 1px solid var(--rule); border-radius: 12px; padding: 14px 16px; }
