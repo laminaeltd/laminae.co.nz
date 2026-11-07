@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="theme-color" content="#0C0E11" media="(prefers-color-scheme: dark)">
-<meta name="theme-color" content="#F9FBFD" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0b0e14" media="(prefers-color-scheme: dark)">
+<meta name="theme-color" content="#f9fbfd" media="(prefers-color-scheme: light)">
 <title>Koha · Laminae</title>
 <meta name="description" content="A koha is a voluntary gift to Laminae, a registered New Zealand charity. Euphysis is free whether or not you give one, and a koha buys nothing.">
 <link rel="canonical" href="https://laminae.co.nz/koha/">
@@ -22,15 +22,10 @@
 <link rel="icon" type="image/png" sizes="32x32" href="../assets/laminae-logo-32.png">
 <link rel="apple-touch-icon" href="../assets/laminae-logo-192.png">
 <style>
-:root { --bg: #0C0E11; --panel: #14171B; --panel2: #191D22; --ink: #E7EBF0; --muted: #A3ACB8; --rule: #2A3037;
-  --teal: #34D8C4; --pink: #E05BC4; --amber: #F2B84B; --violet: #A592FF; --green: #7FCB7C; --on-teal: #071413;
-  --header: rgba(12,14,17,.92); color-scheme: dark; }
+:root { --bg: #0b0e14; --panel: #13161b; --panel2: #181b20; --ink: #dbe8e6; --muted: #abb8c0; --rule: #2d363c; --teal: #34d8c4; --pink: #e25dc5; --amber: #f2b84b; --violet: #a592ff; --on-teal: #003d36; --green: #7FCB7C; --header: rgba(11,14,20,.92); color-scheme: dark; }
 /* Q730 (Tim, 2026-10-21: "Follow their setting"): a visitor whose phone or computer is set to light sees the design
-   system's Paper theme (laminae-design-system dist/json/laminae.json, themes/paper), with the Field light logo; the
-   accents are darkened to read on paper (teal is Paper's primary, pink its tertiary, violet Field light's band). */
-@media (prefers-color-scheme: light) { :root { --bg: #F9FBFD; --panel: #F3F4F8; --panel2: #EDEFF3; --ink: #181C22;
-  --muted: #48555C; --rule: #D1D9DD; --teal: #006B5F; --pink: #C2006C; --amber: #8A5A00; --violet: #6A57E0;
-  --green: #2E6B2E; --on-teal: #FFFFFF; --header: rgba(249,251,253,.92); color-scheme: light; } }
+   system's Paper theme, with the Field light logo. */
+@media (prefers-color-scheme: light) { :root { --bg: #f9fbfd; --panel: #f3f4f8; --panel2: #edeff3; --ink: #181c22; --muted: #48555c; --rule: #d1d9dd; --teal: #006b5f; --pink: #b7069c; --amber: #8a5a00; --violet: #624ed6; --on-teal: #ffffff; --green: #2E6B2E; --header: rgba(249,251,253,.92); color-scheme: light; } }
 /* The field demo (Q733): its ground and its cells' saturation and lightness, read by the poster and by field-demo.js. On
    night the cells glow over a darker ground, as in the app; on paper they deepen over a pale one. */
 :root { --field-bg: #07090C; --field-s: 80%; --field-l: 62%; }
